@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742226571376",
+    "project_id": "victoravancada-19ec3",
+    "storage_bucket": "victoravancada-19ec3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742226571376:android:ff03af3ce7f474e91104b5",
+        "android_client_info": {
+          "package_name": "com.example.victoravancada"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmhEMXTlWsjLEpaNUNX9qEQfj2fFGJtV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

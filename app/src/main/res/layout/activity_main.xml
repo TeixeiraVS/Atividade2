@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Container da pista e dos carros -->
+    <com.example.victoravancada.RacingTrackView
+        android:id="@+id/RacingTrackView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <!-- Campo para inserir o número de carros -->
+    <EditText
+        android:id="@+id/numberOfCarsInput"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Nº carros"
+        android:inputType="number" />
+
+    <!-- Botão para iniciar o movimento dos carros -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="80dp"/>
+
+    <!-- Botão para pausar o movimento -->
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pausar"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp" />
+
+    <!-- Botão para finalizar a corrida -->
+    <Button
+        android:id="@+id/endButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="Finalizar" />
+    <Button
+        android:id="@+id/safetyCarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="80dp"
+        android:text="Ativar Safety Car" />
+    <!-- Lista de voltas completadas para cada carro -->
+    <LinearLayout
+        android:id="@+id/lapCounterContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top|left"
+        android:layout_margin="20dp" />
+</FrameLayout>
